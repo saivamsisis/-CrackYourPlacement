@@ -1,11 +1,11 @@
 #CrackYourPlacement
-TO DAY I HAVE DONE TWO PROBLEMS BUT ENJOYED A LOT DOING THE PROBLEMS.
+'''TO DAY I HAVE DONE TWO PROBLEMS BUT ENJOYED A LOT DOING THE PROBLEMS.
 TO DAY I HAVE DONE PROBLEMS FROM ARRAY TOPIC WHICH ARE:
 1)TWO SUM
 2)COLOR SORT
 THOUGHT THEY ARE EASY QUESTION BUT WHILE SOLVING THESE QUESTION I GOT VERY GOOD REVISION ON SORTING ALGO
-HERE IS MY CODE FOR THE PROBLEMS
-1)TWO SUM:
+HERE IS MY CODE FOR THE PROBLEMS'''
+#1)TWO SUM:
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         r=len(nums)
@@ -14,7 +14,7 @@ class Solution:
             for j in range(i+1,r):
                 if nums[i]+nums[j]==target:
                     return ([i,j])
-2)COLOR SORT:
+#2)COLOR SORT:
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         left,right=0,len(nums)-1
